@@ -1,0 +1,31 @@
+doctype html
+html
+    head
+        title Chat 
+        link(rel='stylesheet', href='/stylesheets/chat.css')
+
+        script(type='text/javascript', src='https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.4.0/socket.io.min.js')
+        
+    body
+        div(id="login")
+            input(type = "text", id = "username")
+            button(id = "start-chat", onclick = "startChat();") Start chating
+        div(id = "current-user")
+        br
+        div(id = "room")
+            div(id = "room1", onclick = "enterRoom('room1');") 
+                p Room 1
+            div(id = "room2", onclick = "enterRoom('room2');") 
+                p Room 2
+            div(id = "room3", onclick = "enterRoom('room3');") 
+                p Room 3
+
+            div(id="members")
+                                
+        div(id="inchat")
+      
+        input(type = "text", autocomplete = "off", id = "chat-input")
+        br
+        button(id="send", onclick="sendMessage();") Send
+    footer
+       script(type='text/javascript', src='/javascripts/chat-client.js')

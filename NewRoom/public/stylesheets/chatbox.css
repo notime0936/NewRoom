@@ -1,0 +1,237 @@
+
+img{
+    max-width: 100%;
+}
+
+.title{
+    margin: 2%;
+    text-align: center;
+}
+.navbar-brand{
+    color: #198754;
+}
+.navbar-brand:hover{
+    color: #198754;
+}
+.navul a{
+    color: black;
+}
+.navul a:hover{
+    color: #198754;
+}
+.navul a:focus{
+    color: #198754;
+}
+.nav-searchbar{
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.menu-user{
+    padding-right: 2%;
+}
+
+.menu-user input{
+    margin-right: 4%;
+}
+
+.modal-header{
+    background-color: #198754;
+    color: white;
+}
+.grid{
+    display: grid;
+    place-items: center;
+}
+
+.room-list {
+    border-top: 2px solid #eee;
+    border-bottom: 2px solid #eee;
+}
+
+#roomList .list-group-item.active {
+    z-index: 2;
+    color: #fff;
+    background-color: #198754;
+    border-color: #eee;
+}
+.room-list-header{
+    min-height: 70px;
+    max-height: 15%;
+}
+.room-list-header h4{
+    margin: 7%;
+}
+.msg-header{
+    flex: 0 1 auto;
+    background-color: white;
+    color: #198754;
+    min-height: 70px;
+    max-height: 15%;
+    width: 100%;
+    display: inline-block;
+    border: 2px solid #eee;
+    border-top: 0;
+}
+.inbox-btn{
+    float: left;
+}
+.inbox-btn i{
+    font-size: 2rem;
+}
+
+.msg-header-img{
+    border-radius: 50%;
+    width: 5%;
+    height: 5%;
+    min-width: 30px;
+    min-height: 30px;
+    margin: 2%;
+    float: left;
+}
+.msg-header-icon i{
+    font-size: 1rem;
+}
+.msg-footer{
+    flex: 0 1 auto;
+}
+.card{
+    margin: 2%;
+}
+.slide img{
+    height: auto;
+    max-height: 80vh;
+    min-width: 100%;
+    object-fit: cover;
+    opacity: 0.9;
+}
+
+.slide span{
+    color: #198754;
+}
+
+.slide h3{
+    color: black;
+}
+#carouselText .carousel-caption{
+    position: relative;
+    top: 40%;
+    right: 10%;
+}
+.status{
+    width: 50%;
+    float: left;
+    margin: 1%;
+}
+.status h4{
+    margin: 0.5%;
+    color: black;
+}
+.status h6{
+    margin: 0.5%;
+}
+.navbar{
+    border-bottom: 2px solid #eee;
+    background-color: white;
+}
+.nav{
+    margin: 2%;
+}
+.nav i{
+    margin: 5%;
+    cursor: pointer;
+    width: 10;
+}
+.sent-msg{
+    margin: 2%;
+    margin-top: 0;
+}
+.sent-msg p{
+    
+    float: left;
+
+    background-color: #198754;
+    color: white;
+    border-radius: 10%;
+    padding: 1%;
+}
+.sent-name{
+    font-weight: bold;
+}
+.inbox-content{
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    
+}
+.chat-page{
+    flex: 1 1 auto;
+    border: 2px solid #eee;
+    border-top: 0;
+    height: 73vh;
+   /* min-height: 200px;
+    max-height: 450px;
+    */
+}
+
+.sent-chats-img{
+    width: 3%;
+    max-width: 50px;
+    margin: 2%;
+    float: left;
+}
+.received-chats-img{
+    width: 3%;
+    max-width: 50px;
+    margin: 2%;
+    float: left;
+}
+.time{
+    margin-top: 5%;
+}
+
+.received-chats{
+    width: 100%;
+    display: inline-block;
+}
+
+.sent-chats{
+    width: 100%;
+    display: inline-block;
+}
+.received-name{
+    font-weight: bold;
+}
+.received-msg-inbox{
+    margin: 2%;
+}
+.received-msg p{
+    
+    float: left;
+    background-color: #eee;
+    color: black;
+    border-radius: 10%;
+    padding: 1%;
+}
+
+.msg-page{
+    display: block;
+    
+}
+
+input{
+    margin: 2%;
+    padding: 2%;
+}
+
+.send-form{
+    position: fixed;
+    bottom: 0;
+}
+
+.profileHeader img{
+    width: auto;
+    height: 20vh;
+}
